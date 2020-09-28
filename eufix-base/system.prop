@@ -1,8 +1,1 @@
-ro.product.locale=zh-CN
-ro.miui.region=CN
-ro.miui.cust_variant=cn
-ro.product.locale.language=cn
-ro.product.locale.region=CN
-persist.sys.notification_rank=6
-persist.sys.notification_ver=2
-ro.product.mod_device=
+
