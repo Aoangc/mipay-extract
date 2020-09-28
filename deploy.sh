@@ -3,7 +3,7 @@
 declare -a urls=(
 
 # Rom URLs
-'https://bigota.d.miui.com/20.5.14/miui_RAPHAEL_20.5.14_7a873b3030_10.0.zip'
+'https://hugeota.d.miui.com/20.9.24/miui_CMI_20.9.24_b8d7c72247_11.0.zip'
 
 )
 
@@ -26,9 +26,9 @@ if [[ "$1" == "rom" ]]; then
         $aria2c ${i//$EU_VER/$VER}
     done
     base_url="https://github.com/kooritea/mipay-extract/releases/download/$VER"
-    $aria2c $base_url/eufix-MiMix2-$VER.zip
-    $aria2c $base_url/mipay-MIMIX2-$VER.zip
-    $aria2c $base_url/eufix-appvault-MIMIX2-$VER.zip
+    $aria2c $base_url/eufix-MI10Pro-$VER.zip
+    $aria2c $base_url/mipay-MI10Pro-$VER.zip
+    $aria2c $base_url/eufix-appvault-MI10Pro-$VER.zip
     exit 0
 fi
 # for i in "${urls[@]}"
