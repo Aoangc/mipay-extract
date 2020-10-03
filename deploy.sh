@@ -7,11 +7,12 @@ declare -a urls=(
 
 )
 
-EU_VER=V10.3.1.0.ODECNXM
+EU_VER=20.9.24
 
 declare -a eu_urls=(
-
+'https://phoenixnap.dl.sourceforge.net/project/xiaomi-eu-multilang-miui-roms/xiaomi.eu/MIUI-WEEKLY-RELEASES/20.9.24/xiaomi.eu_multi_MI10Pro_20.9.24_v12-11.zip'
 )
+
 
 command -v dirname >/dev/null 2>&1 && cd "$(dirname "$0")"
 if [[ "$1" == "rom" ]]; then
