@@ -24,8 +24,9 @@ jobs:
     - name: Build
       run: |
         unset _JAVA_OPTIONS
-        bash deploy.sh
+        bash s.sh
         echo "???"
+        bash start.sh
     - name: Release
       uses: softprops/action-gh-release@v1
       if: startsWith(github.ref, 'refs/tags/')
